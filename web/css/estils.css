@@ -51,7 +51,7 @@ footer {
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
-img{
+#logo-image{
     width: 300px;
     display: block;
     margin: auto;
@@ -60,7 +60,7 @@ img{
 p, li {
     font-family: 'PT Sans', sans-serif;
     line-height: 150%;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     word-spacing: 2px;
     text-indent: 20px;
 }
@@ -69,4 +69,34 @@ h2{
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1.5px;
 }
+
+a{
+    color: #006c94;
+}
+
+img{
+    width: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  nav li a {
+    display: block;
+    color: #00BAFF;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+  
+  
+  nav li a:hover:not(.active) {
+    background-color: #00AEEF;
+    color: white;
+  }
+
+
 
