@@ -48,3 +48,25 @@ footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+img{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+  
+p, li {
+    font-family: 'PT Sans', sans-serif;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    text-indent: 20px;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
+}
+
